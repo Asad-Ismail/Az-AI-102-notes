@@ -51,3 +51,19 @@ A composed model is one that consists of multiple custom models. Typical scenari
 Standard pricing tier, you can add up to 100 custom models into a single composed model. Free pricing tier, you can only add up to 5 custom models.
 
 The Standard tier supports up to 15 concurrent requests 
+
+## Capabilities of each model
+
+<div align="center">
+<img src="document-intelligence.jpg">
+</div> 
+
+where 
+
+Entities: Text that includes common, more complex data structures can be extracted as entities. Entity types include people, locations, and dates.
+
+Selection marks: Spans of text that indicate a choice can be extracted by some models as selection marks. These marks include radio buttons and check boxes.
+
+Tables: Many models can extract tables in scanned forms included the data contained in cells, the numbers of columns and rows, and column and row headings. Tables with merged cells are supported.
+
+Fields: Models trained for a specific form type identify the values of a fixed set of fields. For example, the Invoice model includes CustomerName and InvoiceTotal fields.
