@@ -49,3 +49,5 @@ There are two kinds of custom model:
 A composed model is one that consists of multiple custom models. Typical scenarios where composed models help are when you don't know the submitted document type and want to classify and then analyze it. They are also useful if you have multiple variations of a form, each with a trained individual model. When a user submits a form to the composed model, Document Intelligence automatically classifies it to determine which of the custom models should be used in its analysis. In this approach, a user doesn't have to know what kind of document it is before submission. That can be helpful when you're using lots of similar forms or when you want to publish a single endpoint for all your form types.
 
 Standard pricing tier, you can add up to 100 custom models into a single composed model. Free pricing tier, you can only add up to 5 custom models.
+
+The Standard tier supports up to 15 concurrent requests 
