@@ -67,3 +67,13 @@ Selection marks: Spans of text that indicate a choice can be extracted by some m
 Tables: Many models can extract tables in scanned forms included the data contained in cells, the numbers of columns and rows, and column and row headings. Tables with merged cells are supported.
 
 Fields: Models trained for a specific form type identify the values of a fixed set of fields. For example, the Invoice model includes CustomerName and InvoiceTotal fields.
+
+
+General document is the only one that supports Entity recognition.
+
+<div align="center">
+<img src="model-limits.jpg">
+</div> 
+
+
+Which model in composed model was used can be accessed using doctype field
