@@ -1,3 +1,9 @@
+## Image Analysis Service
+
+The Azure AI Vision Image Analysis service can extract a wide variety of visual features from your images. For example, it can determine whether an image contains adult content, find specific brands or objects, or find human faces.
+
+The latest version of Image Analysis, 4.0, which is now in general availability, has new features like synchronous OCR and people detection. We recommend you use this version going forward
+
 
 ## FACE API
 
@@ -63,6 +69,27 @@ For a local image, Content-Type should be application/octet-stream
 ### Response 429
 
 Rate limit is exceeded. Try again in 26 seconds
+
+
+### Important Reading List
+
+https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services
+
+
+## Visual Features from CV
+
+VisualFeatureTypes.Categories, VisualFeatureTypes.Description,
+VisualFeatureTypes.Faces, VisualFeatureTypes.ImageType,
+VisualFeatureTypes.Tags, VisualFeatureTypes.Adult,
+VisualFeatureTypes.Color, VisualFeatureTypes.Brands,
+VisualFeatureTypes.Objects
+
+## Face Features from CV
+
+ Console.WriteLine($"A {face.Gender} of age {face.Age} at location {face.FaceRectangle.Left}, " +
+                  $"{face.FaceRectangle.Left}, {face.FaceRectangle.Top + face.FaceRectangle.Width}, " +
+                  $"{face.FaceRectangle.Top + face.FaceRectangle.Height}");
+            }
 
 
 
